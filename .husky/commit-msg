@@ -1,0 +1,7 @@
+#!/bin/sh
+# commitlint hook configuration
+# Validates commit message format against conventional commits rules
+
+. "$(dirname "$0")/_/husky.sh"
+
+npx --no -- commitlint --edit "$1"

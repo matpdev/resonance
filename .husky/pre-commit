@@ -1,0 +1,31 @@
+#!/bin/sh
+# Flutter pre-commit hook
+# Runs code analysis before commit
+
+. "$(dirname "$0")/_/husky.sh"
+
+echo "🔍 Running Flutter analysis before commit..."
+
+# Run flutter analyze
+flutter analyze
+
+if [ $? -ne 0 ]; then
+  echo "❌ Flutter analysis failed. Commit aborted."
+  echo "Please fix the issues and try again."
+  exit 1
+fi
+
+echo "✅ Flutter analysis passed!"
+
+# Optional: Run tests
+# echo "🧪 Running tests..."
+# flutter test
+# 
+# if [ $? -ne 0 ]; then
+#   echo "❌ Tests failed. Commit aborted."
+#   exit 1
+# fi
+#
+# echo "✅ All tests passed!"
+
+echo "✨ Code is ready to commit!"

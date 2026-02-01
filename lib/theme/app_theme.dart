@@ -5,7 +5,7 @@ class AppTheme {
   static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
     brightness: Brightness.dark,
-    fontFamily: 'Extatica',
+    fontFamily: 'FiraCodeNerd',
 
     // Color Scheme
     colorScheme: ColorScheme.dark(
@@ -44,7 +44,7 @@ class AppTheme {
       elevation: 0,
       centerTitle: false,
       titleTextStyle: const TextStyle(
-        fontFamily: 'Extatica',
+        fontFamily: 'FiraCodeNerd',
         fontSize: 24,
         fontWeight: FontWeight.w600,
         color: Color(0xFFE1E1E6),
@@ -170,7 +170,7 @@ class AppTheme {
         textStyle: const TextStyle(
           fontSize: 14,
           fontWeight: FontWeight.w600,
-          fontFamily: 'Extatica',
+          fontFamily: 'FiraCodeNerd',
         ),
       ),
     ),
@@ -183,7 +183,7 @@ class AppTheme {
         textStyle: const TextStyle(
           fontSize: 14,
           fontWeight: FontWeight.w600,
-          fontFamily: 'Extatica',
+          fontFamily: 'FiraCodeNerd',
         ),
       ),
     ),
@@ -194,7 +194,7 @@ class AppTheme {
         textStyle: const TextStyle(
           fontSize: 14,
           fontWeight: FontWeight.w600,
-          fontFamily: 'Extatica',
+          fontFamily: 'FiraCodeNerd',
         ),
       ),
     ),
@@ -249,12 +249,12 @@ class AppTheme {
       labelStyle: TextStyle(
         fontSize: 14,
         fontWeight: FontWeight.w600,
-        fontFamily: 'Extatica',
+        fontFamily: 'FiraCodeNerd',
       ),
       unselectedLabelStyle: TextStyle(
         fontSize: 14,
         fontWeight: FontWeight.w500,
-        fontFamily: 'Extatica',
+        fontFamily: 'FiraCodeNerd',
       ),
     ),
 

@@ -70,50 +70,50 @@ flutter:
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/to/asset-from-package
 
-  # Custom fonts from Extatica family
+  # Custom fonts from Fira Code Nerd Font family
   fonts:
-    - family: Extatica
+    - family: FiraCodeNerd
       fonts:
-        - asset: assets/fonts/Extatica-Thin.otf
-          weight: 100
-        - asset: assets/fonts/Extatica-ThinItalic.otf
-          weight: 100
-          style: italic
-        - asset: assets/fonts/Extatica-ExtraLight.otf
-          weight: 200
-        - asset: assets/fonts/Extatica-ExtraLightItalic.otf
-          weight: 200
-          style: italic
-        - asset: assets/fonts/Extatica-Light.otf
+        - asset: assets/fonts/FiraCodeNerdFont-Light.ttf
           weight: 300
-        - asset: assets/fonts/Extatica-LightItalic.otf
+        - asset: assets/fonts/FiraCodeNerdFont-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/FiraCodeNerdFont-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/FiraCodeNerdFont-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/FiraCodeNerdFont-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/FiraCodeNerdFont-Retina.ttf
+          weight: 900
+    - family: FiraCodeNerdMono
+      fonts:
+        - asset: assets/fonts/FiraCodeNerdFontMono-Light.ttf
           weight: 300
-          style: italic
-        - asset: assets/fonts/Extatica-Regular.otf
+        - asset: assets/fonts/FiraCodeNerdFontMono-Regular.ttf
           weight: 400
-        - asset: assets/fonts/Extatica-Italic.otf
+        - asset: assets/fonts/FiraCodeNerdFontMono-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/FiraCodeNerdFontMono-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/FiraCodeNerdFontMono-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/FiraCodeNerdFontMono-Retina.ttf
+          weight: 900
+    - family: FiraCodeNerdPropo
+      fonts:
+        - asset: assets/fonts/FiraCodeNerdFontPropo-Light.ttf
+          weight: 300
+        - asset: assets/fonts/FiraCodeNerdFontPropo-Regular.ttf
           weight: 400
-          style: italic
-        - asset: assets/fonts/Extatica-Medium.otf
+        - asset: assets/fonts/FiraCodeNerdFontPropo-Medium.ttf
           weight: 500
-        - asset: assets/fonts/Extatica-MediumItalic.otf
-          weight: 500
-          style: italic
-        - asset: assets/fonts/Extatica-SemiBold.otf
+        - asset: assets/fonts/FiraCodeNerdFontPropo-SemiBold.ttf
           weight: 600
-        - asset: assets/fonts/Extatica-SemiBoldItalic.otf
-          weight: 600
-          style: italic
-        - asset: assets/fonts/Extatica-Bold.otf
+        - asset: assets/fonts/FiraCodeNerdFontPropo-Bold.ttf
           weight: 700
-        - asset: assets/fonts/Extatica-BoldItalic.otf
-          weight: 700
-          style: italic
-        - asset: assets/fonts/Extatica-ExtraBold.otf
-          weight: 800
-        - asset: assets/fonts/Extatica-ExtraBoldItalic.otf
-          weight: 800
-          style: italic
+        - asset: assets/fonts/FiraCodeNerdFontPropo-Retina.ttf
+          weight: 900
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
