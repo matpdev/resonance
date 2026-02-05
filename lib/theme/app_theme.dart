@@ -31,7 +31,6 @@ class AppTheme {
       surfaceContainerHighest: const Color(0xFF3A405F),
       outline: const Color(0xFF4A5078),
       outlineVariant: const Color(0xFF3A405F),
-      background: const Color(0xFF0A0E27),
       error: const Color(0xFFEF5350),
       onError: const Color(0xFF0A0E27),
       errorContainer: const Color(0xFFEF5350).withOpacity(0.2),

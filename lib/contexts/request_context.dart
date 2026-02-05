@@ -5,8 +5,8 @@ import 'package:dio/dio.dart';
 
 class RequestContext extends ChangeNotifier {
   String _method = 'GET';
-  Map<String, dynamic> _headers = {};
-  Map<String, dynamic> _body = {};
+  final Map<String, dynamic> _headers = {};
+  final Map<String, dynamic> _body = {};
 
   /// Debug
   String responseText = "";
